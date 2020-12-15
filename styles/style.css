@@ -44,10 +44,9 @@ label{
 
 .questions{
     min-height: 60vh;
-    max-height: 110vh;
+    /* max-height: 110vh; */
 }
 
-footer{
-    width:100%;
-    bottom:0%;
+.form-alternatives{
+    margin-bottom: 2vh;
 }

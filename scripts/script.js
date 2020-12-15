@@ -44,6 +44,18 @@ function renderQuestionsAndAnswers(){
                         "${alternatives[1]}"
                     </label>
                 </div>
+                <div class="ml-4">
+                    <label>
+                        <input type="radio" name="inputQuestion${index+1}" value="C">
+                        "${alternatives[2]}"
+                    </label>
+                </div>
+                <div class="ml-4">
+                    <label>
+                        <input type="radio" name="inputQuestion${index+1}" value="D">
+                        "${alternatives[3]}"
+                    </label>
+                </div>
         `
         
         form.append(containerQuestion)
